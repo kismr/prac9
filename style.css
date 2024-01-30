@@ -1,3 +1,8 @@
 div.a {
-    position: relative;
+    width: 300px;
+    border: #fb6304 1px solid;
+}
+
+input.or {
+    background-color: #fb6304;
 }
