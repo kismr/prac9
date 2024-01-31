@@ -8,8 +8,8 @@ input.or {
 }
 
 div.b {
-    width: 600px;
-    height: 400px;
+    width: 400px;
+    height: 270px;
     border: black solid 1px;
 }
 
@@ -23,4 +23,18 @@ input.pol {
 
 select.op {
     width: 160px;
+}
+
+select.y {
+    width: 50px;
+}
+
+input.y {
+    width: 100px;
+}
+
+div.c {
+    width: 400px;
+    height: 600px;
+    border: #78a404 solid 1px;
 }
