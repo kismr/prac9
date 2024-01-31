@@ -8,70 +8,129 @@
 </head>
 <body>
     
-    <center>
 
-        <div class="a">
 
-            <h2>Accede a tu Área Clientes</h2>
+    <form action="web.php">
+        <center>
+
+            <div class="a">
     
-            <p>
-                Elige tu documento 
-    
-                <br> <br>
+                <h2>Accede a tu Área Clientes</h2>
         
-                <input type="radio" name="documento" id=""> DNI o Tarjeta de residencia
-                <br>
-                <input type="radio" name="documento" id=""> Pasaporte
-            </p>    
-    
-            <p>
-                Numero de documento
-    
-                <br> 
-    
-                <input type="text" name="documento" id="documento" placeholder="DNI o Tarjeta de residencia">
-            </p>
-    
-            <p>
-                Fecha de nacimiento
-    
-                <br>
-    
-                <input type="date" name="" id="">
-            </p>
-    
-            <p>
-                <input type="checkbox" name="" id=""> Recordar ⋆
-            </p>
-    
-            <input type="submit" style="color: white;" value="        Enviar        " class="or">
-    
-            <h5>
-                > Acceder conDNI electrónico
-                <br>
-                > Más nformación sobre seguridad
-            </h5>
-    
-        </div>
-
-    </center>
-
-
-
-
-
-
-
+                <p>
+                    Elige tu documento 
+        
+                    <br> <br>
+            
+                    <input type="radio" name="documento" id=""> DNI o Tarjeta de residencia
+                    <br>
+                    <input type="radio" name="documento" id=""> Pasaporte
+                </p>    
+        
+                <p>
+                    Numero de documento
+        
+                    <br> 
+        
+                    <input class="pol" type="text" name="documento" id="documento" placeholder="DNI o Tarjeta de residencia">
+                </p>
+        
+                <p>
+                    Fecha de nacimiento
+        
+                    <br>
+        
+                    <input type="date" name="" id="">
+                </p>
+        
+                <p>
+                    <input type="checkbox" name="" id=""> Recordar ⋆
+                </p>
+        
+                <input type="submit" style="color: white;" value="        Enviar        " class="or">
+        
+                <h5>
+                    > Acceder con DNI electrónico
+                    <br>
+                    > Más nformación sobre seguridad
+                </h5>
+        
+            </div>
+        </center>
+    </form>
 
 
 
 
 
+
+
+
+
+
+
+
+
+    <br>
+    <br>
+    <br>
+    <br>
     <hr>
     <br>
     <br>
     <br>
     <br>
+
+
+
+
+
+    <center>
+        <div class="b">
+
+            <h2> Empieza creando tu usuario </h2>
+
+            <form action="web.php" method="get">
+
+               <input class="t" type="text" name="" id="" placeholder="Nombre"> 
+
+               <br>
+               <br>
+
+               <input type="text" name="" id="" placeholder="1º apellido"> <input type="text" name="" id="" placeholder="2º apellido">
+
+                <br>
+                <br>
+
+                <select  name="curso" id="curso" class="op">
+
+                        <option value="">Tipo de documento</option>
+                        <option value="3">DNI</option>
+                        <option value="4">NIF</option>
+                        <option value="5">CERT. AEAT</option>
+        
+                </select>
+
+                
+                <input type="number" name="" id="" placeholder="Numero de documento">
+
+                <br>
+                <br>
+
+                <input type="text" name="" id="" placeholder="Movil"> <input type="email" name="" id="" placeholder="Email">
+
+                <br>
+                <br>
+
+                <input type="submit" name="" id="">
+
+            </form>
+
+        </div>
+    </center>
+
+
+
 
 
 </body>

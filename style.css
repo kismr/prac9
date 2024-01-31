@@ -6,3 +6,21 @@ div.a {
 input.or {
     background-color: #fb6304;
 }
+
+div.b {
+    width: 600px;
+    height: 400px;
+    border: black solid 1px;
+}
+
+input.t {
+    width: 313px;
+}
+
+input.pol {
+    width: 160px;
+}
+
+select.op {
+    width: 160px;
+}
