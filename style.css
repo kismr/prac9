@@ -5,32 +5,48 @@ div.a {
 
 input.or {
     background-color: #fb6304;
+    font-weight: bold;
+    border: white 1px solid;
+    height: 36px;
+    width: 180px;
 }
 
 div.b {
     width: 400px;
-    height: 270px;
+    height: 315px;
     border: black solid 1px;
+}
+
+input.all {
+    accent-color: #fb6304;
 }
 
 input.t {
     width: 313px;
+    height: 28px;
+}
+
+input.gh {
+    height: 28px;
 }
 
 input.pol {
-    width: 160px;
+    width: 200px;
 }
 
 select.op {
     width: 160px;
+    height: 34px;
 }
 
 select.y {
     width: 50px;
+    height: 34px;
 }
 
 input.y {
     width: 100px;
+    height: 28px;
 }
 
 div.c {
@@ -40,4 +56,13 @@ div.c {
 
 input.th {
     width: 290px;
+    height: 28px;
+}
+
+input.final {
+    background-color: #70a401;
+    font-weight: bold;
+    height: 36px;
+    width: 300px;
+    border: white 1px solid;
 }
